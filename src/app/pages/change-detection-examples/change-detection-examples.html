@@ -1,0 +1,8 @@
+<h1>Counter = {{ counter }}</h1>
+<p>
+  Consulta la console per verificare che il contatore aumenta ogni secondo ma il change detection
+  viene effettuato solo ogni 5 secondi. <br />
+  Clicca sul bottone per verificare che, quando avviene un evento Angular es: (click), cambiamento
+  su variabili in input o output ecc., viene effettuato anche un ciclo di ChangeDetection.
+</p>
+<button (click)="emptyAction()" matButton="filled">Click to Update</button>
